@@ -430,7 +430,7 @@ export const sendMessage = async (templateId, user, accessToken, params) => {
   const data = {
     touser: user.id,
     template_id: templateId,
-    url: user.openUrl || 'https://baidu.com',
+    url: user.openUrl || 'https://www.douyin.com/search/%E4%BD%A0%E6%80%8E%E4%B9%88%E8%BF%98%E5%9C%A8%E7%9D%A1%E8%A7%89%E5%91%A2?aid=393b0d7d-a3cd-4935-937b-5d046e87d4f8&modal_id=7121882831927659776&publish_time=0&sort_type=0&source=normal_search&type=general',
     topcolor: '#FF0000',
     data: wxTemplateData,
   }
