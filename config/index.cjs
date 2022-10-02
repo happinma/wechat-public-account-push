@@ -11,7 +11,7 @@ const USER_CONFIG = {
   APP_ID: 'wxb4bcf1d1eb78f458',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'a79a6880d2473ff96ecfe42d03517195',
+  APP_SECRET: '24e50f724c0397ef54835f8ed493c392',
 
   PROVINCE: '宁夏',
   CITY: '银川',
@@ -51,7 +51,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'mwbN6Qbk4vamdIdPUB-NTaK_CUJJRf9_HicInDDqVfA',
 
   CALLBACK_USERS: [
     {
