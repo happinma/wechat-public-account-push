@@ -15,6 +15,43 @@ const USER_CONFIG = {
 
   PROVINCE: '宁夏',
   CITY: '银川',
+  
+  // 是否给文字设置多彩颜色, 和emoji不兼容
+  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
+  IS_SHOW_COLOR: true,
+
+  // 功能开关,打开：true，关闭：false
+  SWITCH: {
+    /** 每日天气 */
+    weather: true,
+
+    /** 节假日 */
+    // 下一休息日综合提醒
+    holidaytts: true,
+
+    /** 每日N句 */
+    // 金山每日一句
+    CIBA: false,
+    // 每日一言
+    oneTalk: false,
+    // 土味情话(彩虹屁)
+    earthyLoveWords: true,
+    // 朋友圈文案
+    momentCopyrighting: false,
+    // 毒鸡汤
+    poisonChickenSoup: false,
+    // 古诗古文
+    poetry: false,
+
+    /** 星座运势 */
+    horoscope: false,
+
+    /** 生日消息和节日消息 */
+    birthdayMessage: true,
+
+    // 学生课表
+    courseSchedule: false,
+  },
 
   USERS: [
     {
