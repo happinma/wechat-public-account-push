@@ -430,7 +430,7 @@ export const sendMessage = async (templateId, user, accessToken, params) => {
   const data = {
     touser: user.id,
     template_id: templateId,
-    url: user.openUrl || 'https://www.douyin.com/search/%E4%BD%A0%E6%80%8E%E4%B9%88%E8%BF%98%E5%9C%A8%E7%9D%A1%E8%A7%89%E5%91%A2?aid=393b0d7d-a3cd-4935-937b-5d046e87d4f8&modal_id=7121882831927659776&publish_time=0&sort_type=0&source=normal_search&type=general',
+    url: user.openUrl || 'https://www.douyin.com/user/MS4wLjABAAAAn_ixs475epfz6KZUxyMaVm1Os2Sw95x4dsWVsQjJ3vWM1VwhrhEVqwvQ5Z7UWsg9?modal_id=7121882831927659776&showTab=like',
     topcolor: '#FF0000',
     data: wxTemplateData,
   }
